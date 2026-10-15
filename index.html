@@ -307,7 +307,7 @@ function cargar(){
   btn.disabled = true; btn.textContent = 'Cargando…';
   $('err').textContent = '';
   if (!CONFIG.CSV_URL || CONFIG.CSV_URL.indexOf('http') !== 0){
-    $('err').textContent = 'Falta configurar la URL del CSV: editar el index.html y pegar el enlace de "Publicar en la web" en CONFIG.CSV_URL.';
+    $('err').textContent = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQvWeV2IcFueuAH6F6061tGHLpykIbZzdv1FIhxtvij5yTrC_ebKtf7BovX5jzAZ77k56CIf0-uxTsl/pub?output=csv';
     btn.disabled = false; btn.textContent = 'Actualizar';
     return;
   }
